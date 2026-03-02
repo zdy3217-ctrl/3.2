@@ -1,0 +1,89 @@
+{
+  "name": "narrator-ai",
+  "version": "3.0.0",
+  "private": true,
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prelint": "node scripts/ensure-hermes-parser.cjs",
+    "lint": "eslint src --ext .ts,.tsx",
+    "check:types": "tsc --noEmit",
+    "test": "vitest",
+    "test:ci": "vitest run --maxWorkers=1",
+    "test:deep": "vitest run --maxWorkers=1 --reporter=verbose",
+    "test:smoke": "vitest run --maxWorkers=1 --passWithNoTests \"src/**/__smoke__/**/*.test.{ts,tsx}\"",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
+    "electron:dev": "next build && electron .",
+    "electron:build": "next build && electron-builder",
+    "cap:sync": "npx cap sync android",
+    "cap:open": "npx cap open android",
+    "cap:run": "npx cap run android"
+  },
+  "build": {
+    "appId": "com.narratorai.omega",
+    "productName": "NarratorAI Omega",
+    "asar": true,
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      ".next/standalone/**",
+      ".next/static/**",
+      "public/**",
+      "electron/**"
+    ],
+    "extraResources": [
+      {
+        "from": ".next/standalone",
+        "to": "standalone",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.1.0",
+    "@capacitor/core": "^8.1.0",
+    "@jridgewell/sourcemap-codec": "^1.5.5",
+    "next": "16.1.6",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^2.4.5",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.1.0",
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^5.1.4",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "hermes-parser": "^0.33.3",
+    "jsdom": "^28.1.0",
+    "language-subtag-registry": "^0.4.2",
+    "tailwindcss": "^4",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5",
+    "vite": "^7.3.1",
+    "vitest": "^4.0.18"
+  }
+}
