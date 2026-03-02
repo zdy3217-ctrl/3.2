@@ -1,0 +1,133 @@
+﻿
+> narrator-ai@3.0.0 build
+> next build
+
+鈻?Next.js 16.1.6 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+鉁?Compiled successfully in 3.0min
+  Skipping validation of types
+  Collecting page data using 15 workers ...
+node.exe : [env-check] 鈿狅笍 鍙€夌幆澧冨彉閲忔湭璁剧疆:
+所在位置 C:\Program Files\nodejs\npm.ps1:29 字符: 3
++   & $NODE_EXE $NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([env-check] 鈿狅笍 鍙€夌幆澧冨彉閲忔湭璁剧疆::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  - TTS_API_KEY (TTS API 瀵嗛挜) 鏈缃?  - ADMIN_PASSWORD (绠＄悊鍛樺瘑鐮? 鏈缃?[env-check] 鈿狅笍 鍙€夌幆澧冨彉閲忔湭璁剧疆:
+  - TTS_API_KEY (TTS API 瀵嗛挜) 鏈缃?  - ADMIN_PASSWORD (绠＄悊鍛樺瘑鐮? 鏈缃?[env-check] 鈿狅笍 鍙€夌幆澧冨彉閲忔湭璁剧疆:
+  - TTS_API_KEY (TTS API 瀵嗛挜) 鏈缃?  - ADMIN_PASSWORD (绠＄悊鍛樺瘑鐮? 鏈缃?[env-check] 鈿狅笍 鍙€夌幆澧冨彉閲忔湭璁剧疆:
+  - TTS_API_KEY (TTS API 瀵嗛挜) 鏈缃?  - ADMIN_PASSWORD (绠＄悊鍛樺瘑鐮? 鏈缃?[env-check] 鈿狅笍 鍙€夌幆澧冨彉閲忔湭璁剧疆:
+  - TTS_API_KEY (TTS API 瀵嗛挜) 鏈缃?  - ADMIN_PASSWORD (绠＄悊鍛樺瘑鐮? 鏈缃?[env-check] 鈿狅笍 鍙€夌幆澧冨彉閲忔湭璁剧疆:
+  - TTS_API_KEY (TTS API 瀵嗛挜) 鏈缃?  - ADMIN_PASSWORD (绠＄悊鍛樺瘑鐮? 鏈缃?[env-check] 鈿狅笍 鍙€夌幆澧冨彉閲忔湭璁剧疆:
+  - TTS_API_KEY (TTS API 瀵嗛挜) 鏈缃?  - ADMIN_PASSWORD (绠＄悊鍛樺瘑鐮? 鏈缃?[env-check] 鈿狅笍 鍙€夌幆澧冨彉閲忔湭璁剧疆:
+  Generating static pages using 15 workers (0/93) ...
+  Generating static pages using 15 workers (23/93) 
+  Generating static pages using 15 workers (46/93) 
+  - TTS_API_KEY (TTS API 瀵嗛挜) 鏈缃?  - ADMIN_PASSWORD (绠＄悊鍛樺瘑鐮? 鏈缃?[env-check] 鈿狅笍 鍙€夌幆澧冨彉閲忔湭璁剧疆:
+  - TTS_API_KEY (TTS API 瀵嗛挜) 鏈缃?  - ADMIN_PASSWORD (绠＄悊鍛樺瘑鐮? 鏈缃?[env-check] 鈿狅笍 鍙€夌幆澧冨彉閲忔湭璁剧疆:
+  Generating static pages using 15 workers (69/93) 
+鉁?Generating static pages using 15 workers (93/93) in 4.8s
+  Finalizing page optimization ...
+
+Route (app)
+鈹?鈼?/
+鈹?鈼?/_not-found
+鈹?鈼?/admin
+鈹?茠 /api/accounts
+鈹?茠 /api/adapt
+鈹?茠 /api/admin/create-user
+鈹?茠 /api/admin/delete-user
+鈹?茠 /api/admin/list-users
+鈹?茠 /api/ai-director
+鈹?茠 /api/analytics-dashboard
+鈹?茠 /api/audio-process
+鈹?茠 /api/av-sync
+鈹?茠 /api/benchmark
+鈹?茠 /api/bgm-recommend
+鈹?茠 /api/character-cards
+鈹?茠 /api/colorize
+鈹?茠 /api/concept-animation
+鈹?茠 /api/continuity-check
+鈹?茠 /api/copywriting
+鈹?茠 /api/cover-gen
+鈹?茠 /api/db
+鈹?茠 /api/doodle-anime
+鈹?茠 /api/doodle-video
+鈹?茠 /api/edge-tts
+鈹?茠 /api/fission
+鈹?茠 /api/image-gen
+鈹?茠 /api/image-reverse
+鈹?茠 /api/knowledge
+鈹?茠 /api/library
+鈹?茠 /api/llm
+鈹?茠 /api/manga-pipeline
+鈹?茠 /api/manga-studio
+鈹?茠 /api/material-search
+鈹?茠 /api/multi-publish
+鈹?茠 /api/novel-to-script
+鈹?茠 /api/novelist
+鈹?茠 /api/pdf-tools
+鈹?茠 /api/pipeline
+鈹?茠 /api/project-manager
+鈹?茠 /api/project-structure
+鈹?茠 /api/publish
+鈹?茠 /api/pwa-icon
+鈹?茠 /api/radar
+鈹?茠 /api/radar-pro
+鈹?茠 /api/review-bot
+鈹?茠 /api/rewrite
+鈹?茠 /api/search
+鈹?茠 /api/seo
+鈹?茠 /api/smart-cut
+鈹?茠 /api/sora-comic
+鈹?茠 /api/sora-comic/characters
+鈹?茠 /api/sora-comic/inspect
+鈹?茠 /api/sora-comic/preview
+鈹?茠 /api/status
+鈹?茠 /api/storyboard
+鈹?茠 /api/storyboard-extract
+鈹?茠 /api/storyboard-pro
+鈹?茠 /api/storyline
+鈹?茠 /api/storyline/server
+鈹?茠 /api/storyline/upload
+鈹?茠 /api/study-tools
+鈹?茠 /api/style-presets
+鈹?茠 /api/style-transfer
+鈹?茠 /api/system-monitor
+鈹?茠 /api/tasks
+鈹?茠 /api/token-usage
+鈹?茠 /api/trends
+鈹?茠 /api/tts
+鈹?茠 /api/tts-multi
+鈹?茠 /api/tts-upload
+鈹?茠 /api/tvc-studio
+鈹?茠 /api/video-clone
+鈹?茠 /api/video-compose
+鈹?茠 /api/video-edit
+鈹?茠 /api/video-parse
+鈹?茠 /api/video-pipeline
+鈹?茠 /api/video-preview
+鈹?茠 /api/video-prompt
+鈹?茠 /api/video-tools
+鈹?茠 /api/viral-analyze
+鈹?茠 /api/viral-clone
+鈹?茠 /api/visual-inspect
+鈹?茠 /api/voice-preview
+鈹?茠 /api/web-agent
+鈹?茠 /api/whatif
+鈹?茠 /api/worldview
+鈹?茠 /api/wrapper
+鈹?鈼?/favorites
+鈹?鈼?/history
+鈹?鈼?/landing
+鈹?鈼?/library
+鈹?鈼?/settings
+
+
+鈼? (Static)   prerendered as static content
+茠  (Dynamic)  server-rendered on demand
+
+  - TTS_API_KEY (TTS API 瀵嗛挜) 鏈缃?  - ADMIN_PASSWORD (绠＄悊鍛樺瘑鐮? 鏈缃?
